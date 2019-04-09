@@ -1,0 +1,49 @@
+  388  09/04/19 08:01:32 sudo sh -c 'echo "deb http://packages.ros.org/ros/ubuntu $(lsb_release -sc) main" > /etc/apt/sources.list.d/ros-latest.list'
+  389  09/04/19 08:01:32 sudo apt-key adv --keyserver hkp://ha.pool.sks-keyservers.net:80 --recv-key 421C365BD9FF1F717815A3895523BAEEB01FA116
+  390  09/04/19 08:01:32 sudo apt-get update
+  391  09/04/19 08:01:32 sudo apt-get install ros-kinetic-desktop-full
+  392  09/04/19 08:01:32 sudo apt-get purge libopenni*
+  393  09/04/19 08:01:32 sudo rm -rf /var/lib/ni
+  394  09/04/19 08:01:32 dpkg -l | grep openni
+  395  09/04/19 08:01:32 sudo sh -c 'echo "deb http://packages.ros.org/ros/ubuntu $(lsb_release -sc) main" > /etc/apt/sources.list.d/ros-latest.list'
+  396  09/04/19 08:01:32 sudo apt-key adv --keyserver hkp://ha.pool.sks-keyservers.net:80 --recv-key 421C365BD9FF1F717815A3895523BAEEB01FA116
+  397  09/04/19 08:01:32 sudo apt-get install ros-kinetic-desktop-full
+  398  09/04/19 08:01:32 sudo rosdep init
+  399  09/04/19 08:01:32 rm -rf /etc/ros/rosdep/sources.list.d/20-default.list
+  400  09/04/19 08:01:32 sudo rm -rf /etc/ros/rosdep/sources.list.d/20-default.list
+  401  09/04/19 08:01:32 sudo rosdep init
+  402  09/04/19 08:01:32 rosdep update
+  403  09/04/19 08:01:32 echo "source /opt/ros/kinetic/setup.bash" >> ~/.bashrc
+  404  09/04/19 08:01:32 source ~/.bashrc
+  405  09/04/19 08:01:32 sudo apt install python-rosinstall python-rosinstall-generator python-wstool build-essential
+  406  09/04/19 08:01:32 rospack find roscpp
+  407  09/04/19 08:01:32 roscore
+  408  09/04/19 08:01:32 history
+  420  09/04/19 08:01:32 cd Gsoc_2019_Test/
+  421  09/04/19 08:01:32 touch gsoc_cpp_challenge.cpp
+  422  09/04/19 08:01:32 touch gsoc_python_challenge.py
+  423  09/04/19 08:01:32 pycharm
+  424  09/04/19 08:01:32 ./pycharm.sh
+  425  09/04/19 08:01:32 cd ../pycharm-community-2017.2.4/
+  426  09/04/19 08:01:32 cd bin/
+  427  09/04/19 08:01:32 ./pycharm.sh
+  428  09/04/19 08:01:32 python3
+  483  09/04/19 08:01:32 htop
+  484  09/04/19 08:01:32 camViz camViz.yml
+  485  09/04/19 08:01:32 sudo sh -c 'echo "deb http://packages.ros.org/ros/ubuntu $(lsb_release -sc) main" > /etc/apt/sources.list.d/ros-latest.list'
+  486  09/04/19 08:01:32 sudo apt-key adv --keyserver hkp://ha.pool.sks-keyservers.net:80 --recv-key 421C365BD9FF1F717815A3895523BAEEB01FA116
+  487  09/04/19 08:01:32 sudo sh -c 'echo "deb http://packages.osrfoundation.org/gazebo/ubuntu-stable `lsb_release -cs` main" > /etc/apt/sources.list.d/gazebo-stable.list'
+  488  09/04/19 08:01:32 sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-key 67170598AF249743
+  489  09/04/19 08:01:32 sudo apt-add-repository "deb http://zeroc.com/download/apt/ubuntu$(lsb_release -rs) stable main"
+  490  09/04/19 08:01:32 sudo apt-key adv --keyserver keyserver.ubuntu.com --recv 5E6DA83306132997
+  491  09/04/19 08:01:32 sudo sh -c 'cat<<EOF>/etc/apt/sources.list.d/jderobot.list
+  492  09/04/19 08:01:32 deb [arch=amd64] http://jderobot.org/apt xenial main
+  493  09/04/19 08:01:32 EOF'
+  494  09/04/19 08:01:32 sudo apt-key adv --keyserver keyserver.ubuntu.com --recv 24E521A4
+  495  09/04/19 08:01:32 sudo apt update
+  496  09/04/19 08:01:32 sudo apt install jderobot
+  497  09/04/19 08:01:32 sudo apt install jderobot-gazebo-assets
+  498  09/04/19 08:01:32 source ~/.bashrc
+  499  09/04/19 08:01:32 sudo apt install jderobot-camserver jderobot-camviz
+  500  09/04/19 08:01:32 camserver camserver.cfg
+  518  09/04/19 08:13:52 history > ~/Gsoc_2019_Test/JDERobot_bash_log.txt
