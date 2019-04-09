@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/nishant/Gsoc_2019_Test/JdeRobot_Cpp_Challenge/src/gsoc_cpp_challenge.cpp
+iostream
+-
+cstring
+-
+stdio.h
+-
+vector
+-
+queue
+-
+
